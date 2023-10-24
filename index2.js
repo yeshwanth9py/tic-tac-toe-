@@ -9,7 +9,7 @@ playbtn.addEventListener("click",()=>{
 let chance = 1
 x_pos = []
 y_pos = []
-ans_pos = [[1,2,3],[4,5,6],[7,8,9]]  //u add more
+ans_pos = [[1,2,3],[4,5,6],[7,8,9],[1,5,9],[1,4,7],[2,5,8],[3,6,9],[7,5,3],[0,0,0]]  
 
 boxarr.forEach((el)=>{
     el.addEventListener("click",startgame)
